@@ -3,10 +3,13 @@
 import typescriptEslint from 'typescript-eslint';
 
 /** @type {import('@typescript-eslint/utils').TSESLint.FlatConfig.ConfigFile} */
-export default [
+export const eslintPluginTypescriptConfig = [
     {
         languageOptions: {
             parser: typescriptEslint.parser,
+            parserOptions: {
+                project: true
+            }
         },
         plugins: {
             '@typescript-eslint': typescriptEslint.plugin,
@@ -16,4 +19,4 @@ export default [
             '@typescript-eslint/await-thenable': 'error'
         }
     }
-];
+]

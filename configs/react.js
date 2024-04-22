@@ -1,9 +1,10 @@
 // @ts-check
 
 import eslintPluginReact from 'eslint-plugin-react';
+import eslintPluginReactHooks from 'eslint-plugin-react-hooks';
 
 /** @type {import('@typescript-eslint/utils').TSESLint.FlatConfig.ConfigFile} */
-export default [
+export const eslintPluginReactConfig = [
     {
         languageOptions: {
             parserOptions: {
@@ -13,10 +14,13 @@ export default [
             }
         },
         plugins: {
-            react: eslintPluginReact
+            'react': eslintPluginReact,
+            'react-hooks': eslintPluginReactHooks
         },
         rules: {
-            'react/void-dom-elements-no-children': 'error'
+            'react/void-dom-elements-no-children': 'error',
+            'react-hooks/rules-of-hooks': 'error',
+            'react-hooks/exhaustive-deps': 'warn'
         }
     }
 ]

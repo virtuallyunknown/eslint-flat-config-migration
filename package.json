@@ -4,18 +4,19 @@
     "type": "module",
     "scripts": {
         "update": "pnpm up --latest --interactive --recursive",
-        "print-config": "eslint --print-config .eslintrc.js",
+        "print-config": "eslint --print-config src/index.tsx",
         "inspect-config": "eslint --inspect-config"
     },
     "devDependencies": {
-        "@eslint/config-inspector": "^0.4.6",
-        "@eslint/js": "^9.1.1",
+        "@eslint/config-inspector": "^0.4.7",
         "@stylistic/eslint-plugin": "^1.7.2",
         "@types/react": "^18.2.79",
         "@types/react-dom": "^18.2.25",
         "@virtuallyunknown/tsconfig": "^0.0.3",
         "eslint": "^9.1.0",
         "eslint-plugin-react": "^7.34.1",
+        "eslint-plugin-react-hooks": "^4.6.0",
+        "eslint-plugin-unicorn": "^52.0.0",
         "globals": "^15.0.0",
         "typescript": "^5.4.5",
         "typescript-eslint": "^7.7.0"

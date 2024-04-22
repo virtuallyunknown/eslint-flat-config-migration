@@ -3,7 +3,7 @@
 import stylistic from '@stylistic/eslint-plugin';
 
 /** @type {import('@typescript-eslint/utils').TSESLint.FlatConfig.ConfigFile} */
-export default [
+export const eslintPluginStylisticConfig = [
     {
         plugins: {
             '@stylistic': stylistic
@@ -12,4 +12,4 @@ export default [
             '@stylistic/semi': ['error', 'always']
         }
     }
-];
+]
