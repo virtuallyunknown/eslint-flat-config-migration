@@ -4,16 +4,19 @@ import { createRoot } from 'react-dom/client';
 const App = () => {
     const [foo, setFoo] = useState(0);
 
+    if (true) {
+        // react-hooks/rule-of-hooks
+        useState(1);
+    }
 
     useEffect(() => {
-        if (foo === 1) {
-
-        }
+        foo;
         // react-hooks/exhaustive-deps
     }, []);
 
     return (
-        <div>
+        // tailwindcss/classnames-order
+        <div className='flex gap-2'>
             {/* 'react/void-dom-elements-no-children' */}
             <br>hello</br>
         </div>

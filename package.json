@@ -9,17 +9,20 @@
     },
     "devDependencies": {
         "@eslint/config-inspector": "^0.4.7",
+        "@eslint/eslintrc": "^3.0.2",
         "@stylistic/eslint-plugin": "^1.7.2",
         "@types/react": "^18.2.79",
         "@types/react-dom": "^18.2.25",
+        "@typescript-eslint/utils": "^7.7.1",
         "@virtuallyunknown/tsconfig": "^0.0.3",
-        "eslint": "^9.1.0",
+        "eslint": "^9.1.1",
         "eslint-plugin-react": "^7.34.1",
-        "eslint-plugin-react-hooks": "^4.6.0",
+        "eslint-plugin-react-hooks": "5.1.0-canary-cb151849e1-20240424",
+        "eslint-plugin-tailwindcss": "^3.15.1",
         "eslint-plugin-unicorn": "^52.0.0",
         "globals": "^15.0.0",
         "typescript": "^5.4.5",
-        "typescript-eslint": "^7.7.0"
+        "typescript-eslint": "^7.7.1"
     },
     "dependencies": {
         "react": "^18.2.0",
