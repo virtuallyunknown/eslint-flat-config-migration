@@ -16,7 +16,7 @@ const App = () => {
 
     return (
         // tailwindcss/classnames-order
-        <div className='flex gap-2'>
+        <div className='gap-2 flex '>
             {/* 'react/void-dom-elements-no-children' */}
             <br>hello</br>
         </div>

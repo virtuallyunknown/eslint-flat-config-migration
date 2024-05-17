@@ -46,8 +46,8 @@ importers:
         specifier: 5.1.0-canary-cb151849e1-20240424
         version: 5.1.0-canary-cb151849e1-20240424(eslint@9.1.1)
       eslint-plugin-tailwindcss:
-        specifier: ^3.15.1
-        version: 3.15.1(tailwindcss@3.4.3)
+        specifier: 3.15.3-beta.9
+        version: 3.15.3-beta.9(tailwindcss@3.4.3)
       eslint-plugin-unicorn:
         specifier: ^52.0.0
         version: 52.0.0(eslint@9.1.1)
@@ -785,8 +785,8 @@ packages:
     peerDependencies:
       eslint: ^3 || ^4 || ^5 || ^6 || ^7 || ^8
 
-  eslint-plugin-tailwindcss@3.15.1:
-    resolution: {integrity: sha512-4RXRMIaMG07C2TBEW1k0VM4+dDazz1kxcZhkK4zirvmHGZTA4jnlSO2kq5mamuSPi+Wo17dh2SlC8IyFBuCd7Q==}
+  eslint-plugin-tailwindcss@3.15.3-beta.9:
+    resolution: {integrity: sha512-JE2BW+EYftQMfL/5y7y/de5tZSOn5Owd7VyLQOZQjoVkhjRqWTXTuyiCAI2ijbxlbpNrSkPXabWaVzkmBOH3HA==}
     engines: {node: '>=12.13.0'}
     peerDependencies:
       tailwindcss: ^3.4.0
@@ -2691,7 +2691,7 @@ snapshots:
       semver: 6.3.1
       string.prototype.matchall: 4.0.11
 
-  eslint-plugin-tailwindcss@3.15.1(tailwindcss@3.4.3):
+  eslint-plugin-tailwindcss@3.15.3-beta.9(tailwindcss@3.4.3):
     dependencies:
       fast-glob: 3.3.2
       postcss: 8.4.38
