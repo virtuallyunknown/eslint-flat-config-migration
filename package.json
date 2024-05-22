@@ -8,24 +8,24 @@
         "inspect-config": "eslint --inspect-config"
     },
     "devDependencies": {
-        "@eslint/config-inspector": "^0.4.7",
-        "@eslint/eslintrc": "^3.0.2",
-        "@stylistic/eslint-plugin": "^1.7.2",
-        "@types/react": "^18.2.79",
-        "@types/react-dom": "^18.2.25",
-        "@typescript-eslint/utils": "^7.7.1",
-        "@virtuallyunknown/tsconfig": "^0.0.3",
-        "eslint": "^9.1.1",
+        "@eslint/config-inspector": "^0.4.8",
+        "@eslint/eslintrc": "^3.1.0",
+        "@stylistic/eslint-plugin": "^2.1.0",
+        "@types/react": "^18.3.2",
+        "@types/react-dom": "^18.3.0",
+        "@typescript-eslint/utils": "^7.10.0",
+        "@virtuallyunknown/tsconfig": "^0.1.1",
+        "eslint": "^9.3.0",
         "eslint-plugin-react": "^7.34.1",
         "eslint-plugin-react-hooks": "5.1.0-canary-cb151849e1-20240424",
-        "eslint-plugin-tailwindcss": "3.15.3-beta.9",
-        "eslint-plugin-unicorn": "^52.0.0",
-        "globals": "^15.0.0",
+        "eslint-plugin-tailwindcss": "3.16.0-beta.1",
+        "eslint-plugin-unicorn": "^53.0.0",
+        "globals": "^15.3.0",
         "typescript": "^5.4.5",
-        "typescript-eslint": "^7.7.1"
+        "typescript-eslint": "^7.10.0"
     },
     "dependencies": {
-        "react": "^18.2.0",
-        "react-dom": "^18.2.0"
+        "react": "^18.3.1",
+        "react-dom": "^18.3.1"
     }
 }
