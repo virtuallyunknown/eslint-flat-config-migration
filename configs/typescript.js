@@ -15,7 +15,7 @@ export const eslintPluginTypescriptConfig = [
             '@typescript-eslint': typescriptEslint.plugin,
         },
         rules: {
-            '@typescript-eslint/ban-types': 'error',
+            // '@typescript-eslint/ban-types': 'error',
             '@typescript-eslint/await-thenable': 'error'
         }
     }
